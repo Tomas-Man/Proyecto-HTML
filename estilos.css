@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    color: white;
+    background-color: #dc001b;
+    font-family: Yaldevi, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+header h1{
+    border-bottom: 2px solid #516260;
+    padding-bottom: 5px;
+    padding-top: 0;
+    margin-top: 0;
+}
+nav{
+    position: fixed;
+    top: 15%;
+    left: 0;
+    bottom: 0;
+    width: 10%;
+    color: white;
+    background-image: linear-gradient( 90deg, #dc001b , #c4001a );
+    font-family: Yaldevi, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#lateral p{
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 100%;
+    height: 100%;
+}
+figure{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#soy {
+    position: absolute;
+    left: 190px;
+}
+#objetivo {
+    position: absolute;
+    top: 20%;
+}
+#sobre {
+    position: absolute;
+    top: 30%
+}
+#cualidades {
+    position: absolute;
+    top: 40%
+}
