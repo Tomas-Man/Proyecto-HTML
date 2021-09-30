@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Yaldevi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100%;
     height: 15%;
     color: white;
     background-color: #dc001b;
@@ -21,46 +25,91 @@ nav{
     position: fixed;
     top: 15%;
     left: 0;
-    bottom: 0;
-    width: 10%;
+    height: 40px;
+    width: 100%;
     color: white;
-    background-image: linear-gradient( 90deg, #dc001b , #c4001a );
+    background-color: black;
     font-family: Yaldevi, sans-serif;
-    font-weight: 400;
     text-align: center;
 }
-#lateral p{
-    border: 1px solid white;
-    border-radius: 6px;
-    margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+
+.menu>li{
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 10px 50px 0;
 }
+
+.menu>li:hover{
+    background-color: gray;
+}
+
+.submenu{
+    text-align: left;
+    background-color: black;
+    display: none;
+}
+.menu>li:hover>.submenu{
+    display: block;
+}
+.submenu>li>a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
+}
+
+.submenu>li>a:hover{
+    background-color: gray;
+}
+
 section{
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 40%;
+    left: 10%;
     width: 100%;
     height: 100%;
+    margin: 0;
 }
-figure{
-    position: absolute;
+.cuadro{
+    position: relative;
     top: 0;
     left: 0;
+    width: 100%;
+    height: 25%;
+    background-color: violet;
 }
-#soy {
+figure{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+div #soy {
     position: absolute;
+    top: 0;
     left: 190px;
+    width: 25%;
+    overflow: hidden;
 }
 #objetivo {
-    position: absolute;
-    top: 20%;
+    position: relative;
+    top: 25%;
 }
 #sobre {
     position: absolute;
-    top: 30%
+    top: 0;
+    left: 40%;
+    width: 40%;
+    overflow: hidden;
 }
 #cualidades {
-    position: absolute;
-    top: 40%
+    position: relative;
+    top: 53%;
+}
+body{
+    background-color: #516260;
 }
