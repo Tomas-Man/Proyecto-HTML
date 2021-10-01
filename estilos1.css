@@ -48,6 +48,7 @@ nav{
     padding: 0;
     margin: 0;
 }
+
 .menu>li{
     width: 80px;
     height: 30px;
@@ -61,6 +62,7 @@ nav{
     background-color: gray;
     text-shadow: 0 0 20px black;
 }
+
 .submenu{
     display: none;
     position: absolute;
