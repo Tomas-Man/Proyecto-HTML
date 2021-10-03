@@ -133,7 +133,7 @@ nav{
 #info p{
     font-family: 'Noto Sans', sans-serif;
 }
-#info h2{
+#info h2,h1{
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
@@ -142,7 +142,6 @@ nav{
     position: relative;
     top: 0;
     left: 0;
-    background-color: pink;
     margin: 20px;
     height: 250px;
 }
@@ -158,9 +157,10 @@ figure{
     top: 0;
     left: 188px;
     width: 32%;
-    background-color: aquamarine;
+    height: 200px;
     margin: 20px ;
     padding: 20px 20px 0;
+    border: 2px solid #FFD562;
 }
 
 #sobre{
@@ -168,9 +168,10 @@ figure{
     top: 0;
     left: 55%;
     width: 35%;
-    background-color: aquamarine;
+    height: 200px;
     padding: 20px 20px 0;
     margin: 20px;
+    border: 2px solid #FFD562;
 }
 
 /*Hasta aquí primer apartado*/
@@ -179,7 +180,6 @@ figure{
     position: relative;
     top: 0;
     left: 0;
-    background-color: pink;
     margin: 20px;
     height: calc(170px + 250px);
 }
@@ -188,10 +188,10 @@ figure{
     top: 0;
     left: 0;
     width: calc(50% - 60px);
-    height: 340px;
-    background-color: aquamarine;
+    height: 370px;
     margin: 20px;
     padding: 20px;
+    border: 2px solid #FFD562;
 }
 
 #cualidades{
@@ -199,10 +199,10 @@ figure{
      top: 0;
      left: 50%;
      width: calc(50% - 80px);
-     height: 340px;
-     background-color: aquamarine;
+     height: 370px;
      margin: 20px;
      padding: 20px;
+     border: 2px solid #FFD562;
  }
 #cualidades h2{
     text-align: center;
@@ -213,7 +213,6 @@ figure{
     left: 0;
     width: 45%;
     height: 53%;
-    background-color: lightgray;
 }
 #eng img{
     position: absolute;
@@ -227,7 +226,6 @@ figure{
     left: 50%;
     width: 45%;
     height: 53%;
-    background-color: lightgray;
 }
 #ms img{
     position: absolute;
@@ -242,7 +240,6 @@ figure{
     left: 0;
     width:100px;
     height: 80%;
-    background-color: bisque;
 }
 #imgfort{
     position: absolute;
@@ -250,7 +247,6 @@ figure{
     left: 120px;
     width: 80%;
     height: 75%;
-    background-color: lightgray;
 }
 #picfort img{
     position: absolute;
@@ -266,7 +262,6 @@ figure{
     position: relative;
     top: 0;
     left: 0;
-    background-color: pink;
     margin: 20px;
     height: 80%;
 }
@@ -275,8 +270,10 @@ figure{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 50%;
+    width: calc(100% - 40px);
+    height: 90%;
+    margin: 20px;
+    border: 2px solid #FFD562;
 }
 #logros h2{
     text-align: center;
@@ -288,7 +285,6 @@ figure{
     width: 40%;
     height: 75%;
     margin: 20px;
-    background-color: lightgray;
 }
 #arduino1 img{
     position: relative;
@@ -303,13 +299,26 @@ figure{
     width: 40%;
     height: 75%;
     margin: 20px;
-    background-color: lightgray;
 }
 #msoff img{
     position: relative;
     top: 0;
     left: 0;
     width: 100%
+}
+/*Hasta aquí la portada*/
+.proy{
+    margin: 20px;
+    border: 2px solid #FFD562;
+}
+.proy p{
+    margin: 20px;
+}
+#figproy img{
+    width: 150px;
+    position: relative;
+    left: calc(50% - 75px);
+    margin-bottom: 20px;
 }
 @media screen and (max-width: 980px) {
 
