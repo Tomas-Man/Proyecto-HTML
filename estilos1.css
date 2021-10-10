@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+html{
+    background-color: #fffcdd;
+}
 header{
     Position: fixed;
     top: 0;
@@ -11,6 +14,7 @@ header{
     background-color: #dc001b;
     color: white;
     z-index: 10;
+    border-top: 2px solid #FFD562;
 }
 header a{
     color: white;
@@ -40,8 +44,10 @@ nav{
     left: 0;
     width: 100%;
     height: 50px;
+    z-index: 15;
     background-color: black;
     font-family: 'Roboto Slab', serif;
+    border-top: 2px solid #FFD562;
 }
 .menu{
     position: absolute;
@@ -68,7 +74,6 @@ nav{
     background-color: gray;
     text-shadow: 0 0 20px black;
 }
-
 .submenu{
     display: none;
     position: absolute;
@@ -145,11 +150,13 @@ nav{
     margin: 20px;
     height: 250px;
 }
-figure{
+#pic img{
     position: relative;
     top: 20px;
-    left: 0;
-    margin: 20px;
+    left: -20px;
+    margin: 20px 20px 20px 0;
+    border: 4px solid #FFD562;
+    box-shadow: 5px 5px 10px gray;
 }
 
 #soy{
@@ -160,7 +167,9 @@ figure{
     height: 200px;
     margin: 20px ;
     padding: 20px 20px 0;
-    border: 2px solid #FFD562;
+    border: 4px solid rgba(255, 213, 98, 0.52);
+    box-shadow: 5px 5px 10px gray;
+    background-color: #FFD56242;
 }
 
 #sobre{
@@ -171,7 +180,9 @@ figure{
     height: 200px;
     padding: 20px 20px 0;
     margin: 20px;
-    border: 2px solid #FFD562;
+    border: 4px solid #FFD562;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #FFD56242;
 }
 
 /*Hasta aquí primer apartado*/
@@ -191,7 +202,9 @@ figure{
     height: 370px;
     margin: 20px;
     padding: 20px;
-    border: 2px solid #FFD562;
+    border: 4px solid #FFD562;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #FFD56242;
 }
 
 #cualidades{
@@ -202,7 +215,9 @@ figure{
      height: 370px;
      margin: 20px;
      padding: 20px;
-     border: 2px solid #FFD562;
+     border: 4px solid #FFD562;
+     box-shadow: 5px 5px 10px gray;
+     background-color: #FFD56242;
  }
 #cualidades h2{
     text-align: center;
@@ -217,18 +232,18 @@ figure{
 #eng img{
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 0;
     width: 90%;
 }
 #ms{
     position: absolute;
     top: 150px;
-    left: 50%;
+    left: 40%;
     width: 45%;
     height: 53%;
 }
 #ms img{
-    position: absolute;
+    position: center;
     top: 0;
     left: 0;
     width: 90%;
@@ -263,7 +278,7 @@ figure{
     top: 0;
     left: 0;
     margin: 20px;
-    height: 80%;
+    height: 90%;
 }
 
 #logros{
@@ -273,7 +288,12 @@ figure{
     width: calc(100% - 40px);
     height: 90%;
     margin: 20px;
-    border: 2px solid #FFD562;
+    border: 4px solid #FFD562;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #FFD56242;
+}
+#logros p{
+    margin: 20px;
 }
 #logros h2{
     text-align: center;
@@ -309,7 +329,9 @@ figure{
 /*Hasta aquí la portada*/
 .proy{
     margin: 20px;
-    border: 2px solid #FFD562;
+    border: 4px solid #FFD562;
+    box-shadow: 5px 5px 10px gray;
+    background-color: #FFD56242;
 }
 .proy p{
     margin: 20px;
